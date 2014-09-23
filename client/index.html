@@ -16,6 +16,18 @@
   <body>
     <div id="main">
       <h1>chatterbox</h1>
+      <div id="roomList" style='float:right; border: 2px solid black; min-width:150px; min-height: 220px'>
+        <button id='lobby'>lobby</button>
+        <button id='4chan'>4chan</button>
+      </div>
+      <div>
+        Message : <input type="text" id="message"/>
+        <input type='submit' value='send' />
+      </div>
+      <button id="display">display messages</button>
+      <div id='chats'></div>
+      <div id="roomSelect"></div>
+
       <!-- Your HTML goes here! -->
     </div>
   </body>
